@@ -172,7 +172,7 @@
     <script>
         ( () => {
             let script = document.createElement("script");
-            script.setAttribute("src", `https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkVOfK00zRCu8q7z9oc3Ac4Kp8jbD7izECvLO9MEypea_Fghf_05jlGE5LouTNBo`);
+            script.setAttribute("src", `https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=MYBINGKEY`);
             document.body.appendChild(script);
         })();
     </script>
