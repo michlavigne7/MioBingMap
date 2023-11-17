@@ -50,7 +50,7 @@ namespace BingMapMIO.Model
     }
     public class AdressContext : DbContext
     {
-        public AdressContext() : base("Server=dbserver;Database=UAT_Database;Trusted_Connection=True;TrustServerCertificate=True") { }
+        public AdressContext() : base(MYDBContext) { }
         public DbSet<DeliveryAdress> scschdt { get; set; }
     }
 
