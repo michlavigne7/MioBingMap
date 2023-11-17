@@ -22,7 +22,7 @@ namespace BingMapMIO.Controller
             try
             {
                 SqlConnection con = new SqlConnection();
-                con = new SqlConnection("data source=dbserver; initial catalog = uat_database; persist security info = True; Integrated Security = SSPI; ");
+                con = new SqlConnection("MYDBContext");
                 con.Open();
                 SqlCommand sqlCommand = new SqlCommand("[Operations].[bel_sp_mio_PickUpList]", con);
                 sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
@@ -63,7 +63,7 @@ namespace BingMapMIO.Controller
             try
             {
                 SqlConnection con = new SqlConnection();
-                con = new SqlConnection("data source=dbserver; initial catalog = uat_database; persist security info = True; Integrated Security = SSPI; ");
+                con = new SqlConnection("MyDBContext");
                 con.Open();
                 SqlCommand sqlCommand = new SqlCommand("[Operations].[bel_sp_mio_deliveryList]", con);
                 sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
