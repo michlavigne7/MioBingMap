@@ -9,4 +9,5 @@ The datepicker changes the selected date to see the routes from another day.
 
 Checkboxes removes or show selected driver routes.
 
-![image](https://github.com/michlavigne7/MioBingMap/assets/132396163/e9c78acf-fb1b-4c68-8261-d3cea340f089)
+![image](https://github.com/michlavigne7/MioBingMap/assets/132396163/45f28e51-89ed-489b-bea9-d54188400990)
+
